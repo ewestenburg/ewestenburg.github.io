@@ -24,8 +24,12 @@
       </nav>
 
       <section class="hero">
+        <!-- Weird 70s-ish motif: two offset squares behind the hero copy -->
+        <div class="motif" aria-hidden="true"></div>
+
         <div class="hero-left">
           <p class="kicker">Available for NYC or Remote • Starting ASAP</p>
+
           <h1>
             Creative technologist combining <span class="accent">software</span> +
             <span class="accent">storytelling</span>.
@@ -34,7 +38,7 @@
           <p class="subhead">
             I’m a Computer Science & Engineering graduate with hands-on experience in
             video editing and social content. I build clean, practical web/software
-            projects and produce scroll-stopping short-form edits.
+            projects and produce sharp short-form edits.
           </p>
 
           <div class="cta-row">
@@ -59,7 +63,7 @@
               <li>Video editing / social content roles</li>
               <li>Hybrid creative-tech roles (media tools, interactive experiences)</li>
             </ul>
-            <p class="muted">
+            <p class="muted small">
               Target: $35k+ by April 1 • NYC or Remote
             </p>
           </div>
@@ -71,19 +75,20 @@
       <section id="projects" class="section">
         <div class="section-head">
           <h2>Projects</h2>
-          <p class="muted">A few things I’ve built and shipped. (More on GitHub.)</p>
+          <p class="muted">Two things I’m proud of — one technical, one creative.</p>
         </div>
 
-        <div class="grid">
+        <!-- Only two projects -->
+        <div class="grid two">
           <!-- PROJECT 1 -->
           <article class="project">
             <div class="thumb">
-              <img src="assets/img/project1.png" alt="Project screenshot" />
+              <img src="assets/img/project1.png" alt="Wildfire visualization screenshot" />
             </div>
             <div class="project-body">
-              <h3>[Wildfire Visualization Platform]</h3>
+              <h3>[Wildfire Visualizer + UI]</h3>
               <p>
-                [Web app for viewing flight-based thermal data overlays + timeline playback.]
+                [Map-based thermal overlays + timeline playback + clean operator-friendly UI.]
               </p>
               <div class="tags">
                 <span>Python</span><span>Tornado</span><span>SQLite</span><span>JS</span>
@@ -98,35 +103,15 @@
           <!-- PROJECT 2 -->
           <article class="project">
             <div class="thumb">
-              <img src="assets/img/project2.png" alt="Project screenshot" />
+              <img src="assets/img/project2.png" alt="Video editing reel screenshot" />
             </div>
             <div class="project-body">
-              <h3>[Ground Control App / Desktop UI]</h3>
+              <h3>[Video Editing / Social]</h3>
               <p>
-                [Desktop UI for receiving telemetry/data, logging, and displaying updates in real-time.]
+                [Short-form edits with pacing, music sync, captions, hooks, and clean motion accents.]
               </p>
               <div class="tags">
-                <span>Python</span><span>PyQt</span><span>WebSockets</span>
-              </div>
-              <div class="links">
-                <a href="[Short walkthrough video]" target="_blank" rel="noreferrer">Walkthrough</a>
-                <a href="[GitHub Repo URL]" target="_blank" rel="noreferrer">Code</a>
-              </div>
-            </div>
-          </article>
-
-          <!-- PROJECT 3 (creative) -->
-          <article class="project">
-            <div class="thumb thumb-empty">
-              <div class="placeholder">Add a reel screenshot</div>
-            </div>
-            <div class="project-body">
-              <h3>[Short-Form Editing / Social Content]</h3>
-              <p>
-                [Selection of reels/shorts showing pacing, music sync, captions, and hooks.]
-              </p>
-              <div class="tags">
-                <span>Premiere</span><span>CapCut</span><span>After Effects</span>
+                <span>Premiere</span><span>After Effects</span><span>CapCut</span>
               </div>
               <div class="links">
                 <a href="[Reel Playlist URL]" target="_blank" rel="noreferrer">Watch</a>
@@ -139,17 +124,14 @@
       <section id="reel" class="section">
         <div class="section-head">
           <h2>Video Reel</h2>
-          <p class="muted">One link recruiters can skim in 60 seconds.</p>
+          <p class="muted">One link recruiters can skim quickly.</p>
         </div>
 
         <div class="card">
-          <p class="muted">
-            Upload your reel to YouTube/Vimeo/Drive and paste the link below.
-          </p>
           <a class="btn primary" href="[Reel URL]" target="_blank" rel="noreferrer">Watch my reel</a>
           <div class="small-spacer"></div>
           <p class="muted small">
-            Tip: put your best 3 clips first, keep it 45–75 seconds, add captions.
+            Tip: best clips first • 45–75 seconds • captions on
           </p>
         </div>
       </section>
@@ -163,9 +145,8 @@
           <div class="card">
             <h3>Hi — I’m [Your Name].</h3>
             <p>
-              I’m a CS & Engineering graduate who likes building interactive tools and
-              making content that feels sharp and intentional. I’m especially drawn to
-              roles where technical execution and creative judgment overlap.
+              I like building interactive tools and making content that feels sharp and intentional.
+              I’m drawn to roles where technical execution and creative judgment overlap.
             </p>
             <p class="muted small">
               NYC or Remote • Open to full-time or contract-to-hire
@@ -218,4 +199,3 @@
     </script>
   </body>
 </html>
-
