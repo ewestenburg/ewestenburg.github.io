@@ -9,6 +9,20 @@
   </head>
 
   <body>
+    <!-- Print artifacts (decorative) -->
+    <div class="print-layer" aria-hidden="true">
+      <div class="crop crop-tl"></div>
+      <div class="crop crop-tr"></div>
+      <div class="crop crop-bl"></div>
+      <div class="crop crop-br"></div>
+
+      <div class="reg reg-a"></div>
+      <div class="reg reg-b"></div>
+
+      <div class="cmyk-bar" title="CMYK"></div>
+      <div class="halftone"></div>
+    </div>
+
     <header class="wrap">
       <nav class="nav">
         <a class="brand" href="#">[Your Name]</a>
@@ -23,16 +37,20 @@
 
       <section class="hero">
         <div class="hero-copy">
-          <p class="meta">NYC / Remote • Available soon</p>
+          <p class="meta">
+            <span class="mono">NYC / Remote</span>
+            <span class="sep">•</span>
+            <span class="mono">Available soon</span>
+          </p>
 
           <h1>
             Software + video.<br />
-            Clean builds, sharp edits.
+            Built clean. Cut sharp.
           </h1>
 
           <p class="lede">
             I make interactive tools and short-form content. I care about pacing, clarity,
-            and details that make things feel intentional.
+            and details that feel intentional.
           </p>
 
           <div class="actions">
@@ -41,17 +59,31 @@
             <a class="btn" href="[LinkedIn URL]" target="_blank" rel="noreferrer">LinkedIn</a>
           </div>
 
-          <div class="chips">
+          <div class="chips" aria-label="Focus areas">
             <span>Python</span><span>Web UI</span><span>Editing</span><span>Short-form</span>
           </div>
         </div>
 
-        <!-- Weird 70s motif: offset squares as a “poster stamp” -->
-        <div class="stamp" aria-hidden="true">
-          <div class="sq a"></div>
-          <div class="sq b"></div>
-          <div class="stamp-label">WORK / PLAY</div>
-        </div>
+        <!-- Minimal “print label” instead of overlapping squares -->
+        <aside class="hero-aside">
+          <div class="label-card">
+            <div class="label-top">
+              <span class="badge">PRINT SHEET</span>
+              <span class="badge outline">v1</span>
+            </div>
+
+            <div class="label-lines">
+              <div class="line"><span>Role</span><span>Creative Technologist</span></div>
+              <div class="line"><span>Focus</span><span>Software • Video</span></div>
+              <div class="line"><span>Status</span><span>Open to roles</span></div>
+            </div>
+
+            <div class="label-bottom">
+              <span class="mini-mark">⦿</span>
+              <span class="mono">CMYK SAFE</span>
+            </div>
+          </div>
+        </aside>
       </section>
     </header>
 
